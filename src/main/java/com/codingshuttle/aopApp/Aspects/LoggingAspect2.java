@@ -25,6 +25,9 @@ public class LoggingAspect2 {
         log.info("after returning advice method called for method in services impl {}",joinPoint.getSignature());
         log.info("return value :{}",returnVal);
         log.info("git hub testing ");
+        log.info("git hub testing ");
+        log.info("git hub testing ");
+        log.info("git hub testing ");
     }
 
     @AfterThrowing(value = "allServicePointCut()")
